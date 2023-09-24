@@ -1,5 +1,13 @@
 # DKOS Test
 
+## Dependencies
+
+dkos depends on KallistOS and its associated newlib being installed in `/opt/toolchains/dc`
+
+Additionally you will as of current need to compile [this branch of dub](https://github.com/LunaTheFoxgirl/dub/tree/betterc-probe), just run `dub build` in its root directory once cloned and branch is changed. Then copy to the bin directory of your liking.
+
+## Building
+
 To build this test, compile GDC for sh-elf (see dc-chain scripts in kallistos), then run
 
 ```
