@@ -1,0 +1,9 @@
+name "dkos-test"
+description "DKOS test application"
+authors "Luna"
+copyright "Copyright © 2023, Luna"
+license "BSD-2-Clause"
+dependency "dkos" version="~>1.0.0"
+
+targetPath "out/"
+targetName "dkos-test.elf"
