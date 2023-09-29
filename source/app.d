@@ -2,7 +2,7 @@ import dreamcast.pvr;
 import core.stdc.stdio;
 import core.stdc.stdlib;
 import std.math;
-import extra.color;
+import std.extra.color;
 
 void main(string[] args) {
 	printf("Hello world from dkos!\n");
